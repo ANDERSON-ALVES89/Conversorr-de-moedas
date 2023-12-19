@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&family=Oswald&family=Poppins:wght@400;500;700&family=Roboto&family=Roboto+Mono&family=Silkscreen&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Conversor-de-moedas</title>
+</head>
+
+<body>
+
+   
+    <main>
+        <label>
+            <div class="converter">Converter <strong>de</strong>
+            </div>
+            <select>
+                <option>Real brasileiro</option>
+            </select>
+        </label>
+
+        <label>
+            Converter <b>Para</b>
+            <select>
+                <option>US$ Dólar americano</option>
+                <option>€ Euro</option>
+
+            </select>
+        </label>
+        <label>
+            <strong>Valor</strong>
+            <input class="input"   placeholder="10.000,00">
+        </label>
+        <button class="convert-button">Converter</button>
+        <section>
+            <div class="div1">
+                <img  src="./logo-brasil.png" alt="logo-moeda-a-converter">
+                <p class="mangos1">Real</p>
+                <p class="mangos2">R$ 0,00</p> <!--Converter--->
+
+            </div>
+
+            <div class="div2">
+                <img class="arrow-img" src="./logo-eua.png" alt="logo-moeda-convertida">
+            </div>
+            <div class="p">
+                <p class="mangos3">Dolar Americano</p>
+                <p class="mangos4">US$ 0.0</p> <!--convertido-->
+            </div>
+            <div class="div2">
+                <img class="moeda-euro" src="./logo-euro.png" alt="logo-moeda-convertida">
+            </div>
+            <div class="div3">
+                <p class="mangos5">Euro</p>
+                <p class="mangos6">€ 0.0</p> <!--convertido-->
+            </div>
+            
+        </section>
+    </main>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
